@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pharmacy Management System</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Pharmacy Management System</h1>
+    </header>
+    <main>
+     
+        <section id="inventory-section">
+          <h2>Inventory Management</h2>
+          <!-- Updated the onclick to navigate to inventory.html -->
+          <button onclick="openInventory()">View Inventory</button>
+          <div id="inventory-container"></div>
+        </section>
+
+      <section id="sales-section">
+        <h2>Sales Management</h2>
+        <button onclick="openSales()">View Sales</button>
+        <button onclick="processSale()">Process Sale</button>
+      </section>
+
+      <section id="customer-section">
+        <h2>Customer Information</h2>
+        <button onclick="viewCustomers()">View Customers</button>
+      </section>
+    </main>
+    <script src="main.js"></script>
+  </body>
+</html>
